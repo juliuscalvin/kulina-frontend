@@ -76,7 +76,25 @@ body{
 }
 
 .left-column{
+	width: 200px;
+	height: 100px;
+	display: flex;
+	float: left;
+	margin-top: 100px;
+	margin-left: 100px;
+}
 
+div h1{
+	text-align: center;
+}
+
+.right-column{
+	list-style-type: none;
+	color: #999999;
+	display: flex;
+	padding-top: 100px;
+	padding-left: 100px;
+	padding-right: 60px;
 }
 
 .apply-button{
